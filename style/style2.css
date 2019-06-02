@@ -1,0 +1,29 @@
+body{
+    background-color: whitesmoke;
+  }
+  
+  img{
+    width: 100%;
+  }
+
+  .logo{
+    width: 10%;
+  }
+
+  .navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link{
+    color: rgb(240, 77, 1);
+    font-weight: bolder;
+    background-color: rgb(17, 6, 63);
+    margin: 3px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  
+  .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: aliceblue;
+    transform:translateY(10px); 
+  }
+
+  button{
+    background-color: rgb(17, 6, 63);
+  }
